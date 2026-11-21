@@ -8,7 +8,7 @@
   (:require [clojure.string :as str]
             [clojure.test :as t :refer [deftest is testing]]
             [kmet.reakt.weak :as weak]
-            [kmet.test-utils :as tu]))
+            [kmet.reakt.test-utils :as tu]))
 
 (defn- fresh-key []
   (keyword (gensym "weak-test")))

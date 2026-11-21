@@ -7,7 +7,7 @@
   (:require [clojure.test :as t :refer [deftest is testing]]
             [kmet.reakt.core :as r]
             [kmet.reakt.weak :as weak]
-            [kmet.test-utils :as test-utils]))
+            [kmet.reakt.test-utils :as test-utils]))
 
 (deftest test-changed-gate
   (testing "identical? fast path + structural = fallback"
